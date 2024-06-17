@@ -24,21 +24,24 @@ Push Swap aims to implement an efficient sorting algorithm for a stack of intege
 ## Usage
 
 To use Push Swap, follow these steps:
-
 1. Clone the repository to your local machine.
+```bash
+git clone git@github.com:Bussiereg/push_swap.git
+```
 2. Navigate to the project directory.
+```bash
+cd push_swap
+```
 3. Compile the program using the provided Makefile.
-4. Run the program with a list of integers as input.
-
-Example:
+```bash
+make && make bonus
+```
+4. Run the program with a list of integers as input.For instance:
 ```bash
 ./push_swap 3 1 5 2 4
-
 ./push_swap 3 1 5 2 4 | ./checker 3 1 5 2 4
 ```
 
 ## Algorithm
 
 Push Swap implements a custom sorting algorithm specifically designed for this project. The algorithm consists of a combination of various sorting techniques, including insertion sort, selection sort, and other optimization strategies.
-
-For detailed information on the algorithm used, refer to the source code and accompanying documentation.
